@@ -1,17 +1,16 @@
 package com.example.theproject
 
+import android.content.Intent
 import android.os.Bundle
-import android.text.InputType
 import android.text.method.HideReturnsTransformationMethod
 import android.text.method.PasswordTransformationMethod
 import android.view.Window
-import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageButton
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-
-class MainActivity : AppCompatActivity() {
+class signin:AppCompatActivity() {
     var a=false
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,6 +33,11 @@ class MainActivity : AppCompatActivity() {
                 password.setTransformationMethod(PasswordTransformationMethod.getInstance())
                 a=false
             }
+        }
+        val signbtn=findViewById<TextView>(R.id.button)
+        signbtn.setOnClickListener {
+            val i=Intent(this,signup::class.java);
+            startActivity(i);
         }
     }
 }

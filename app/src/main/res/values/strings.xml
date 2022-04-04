@@ -2,5 +2,11 @@
     <string name="app_name">THE PROJECT</string>
     <string name="edittext_hint"><font size="12">   Username/Email</font></string>
     <string name="edittext_hint1"><font size="12">    Password</font></string>
+    <string name="hintText"><font size="12">Enter Name</font></string>
+    <string name="hintText1"><font size="12">Enter Email</font></string>
+    <string name="hintText2"><font size="12">Enter Password</font></string>
+    <string name="hintText3"><font size="12">Enter Confirm Password</font></string>
+    <string name="hintText4"><font size="12">Enter Address</font></string>
+    <string name="hintText5"><font size="12">Enter Mobile Number</font></string>
     <string name="edittext_register"><font size="12">Register</font></string>
 </resources>
