@@ -17,4 +17,6 @@
         <item name="isLightTheme">true</item>
         <item name="android:windowFullscreen">true</item>
     </style>
+    <string name="ent">Entrepreneur</string>
+    <string name="inv">Investor</string>
 </resources>
