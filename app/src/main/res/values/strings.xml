@@ -9,4 +9,12 @@
     <string name="hintText4"><font size="12">Enter Address</font></string>
     <string name="hintText5"><font size="12">Enter Mobile Number</font></string>
     <string name="edittext_register"><font size="12">Register</font></string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="isLightTheme">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
 </resources>
